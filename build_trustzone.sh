@@ -35,5 +35,6 @@ function build_trustzone_bin ()
     echo "Done"
 }
 
+rm -f ${TRUSTONZE_IMAGE_NAME}
 build_tee
 build_trustzone_bin
